@@ -1,0 +1,353 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+li {
+  list-style: none;
+}
+a {
+  text-decoration: none;
+}
+.header {
+  height: 48px;
+  margin: 24px;
+  line-height: 48px;
+}
+.header .row div {
+  padding: 0;
+  font-weight: 600;
+  letter-spacing: 2px;
+  text-align: center;
+}
+.top {
+  position: fixed;
+}
+.zeb {
+  width: 70%;
+  text-align: left;
+  height: 400px;
+  margin: 0 auto;
+}
+.zeb p {
+  margin-left: 13px;
+}
+.zeb p span:nth-child(2) {
+  border: 1px solid green;
+  border-radius: 20px;
+}
+.zeb div {
+  font-size: 28px;
+  padding-top: 150px;
+  font-weight: 700;
+  text-align: center;
+  margin-bottom: 30px;
+}
+.zeb span {
+  text-align: center;
+  color: chartreuse;
+  margin-right: 20px;
+  width: 60px;
+  height: 30px;
+  line-height: 30px;
+  display: inline-block;
+}
+.main {
+  width: 100%;
+  word-break: keep-all;
+  overflow: hidden;
+}
+.swipt_box {
+  width: 450%;
+  transform: translateX(0px);
+  transition: all 1s;
+}
+.swipt_box::after {
+  content: "";
+  display: block;
+  clear: both;
+}
+.main img {
+  width: 25%;
+  float: left;
+}
+.san {
+  width: 100%;
+  background-color: #fffafa;
+  padding: 30px 0;
+}
+.san div:hover {
+  transform: translate3d(0, -4px, 0);
+  transition: 1s;
+  box-shadow: 0px 0px 7px 1px #f8f8f8;
+}
+.san div {
+  width: 33.3%;
+  float: left;
+  padding: 0 10px;
+}
+.san div img {
+  width: 100%;
+}
+.wrapper {
+  width: 100%;
+  height: 244px;
+  background-color: white;
+}
+.wrapper .box {
+  width: 720px;
+  height: 100%;
+  margin: 0 auto;
+}
+.wrapper .box .div1 {
+  padding: 36px 0;
+  width: 50%;
+  float: left;
+}
+.wrapper .box .div1 h2 {
+  font-size: 26px;
+}
+.wrapper .box .div1 p {
+  margin: 30px 0;
+}
+.wrapper .box .div1 a {
+  display: inline-block;
+  width: 70px;
+  height: 30px;
+  text-align: center;
+  line-height: 30px;
+  margin-right: 10px;
+  border: 1px solid goldenrod;
+  border-radius: 25px;
+}
+.wrapper .box .div2 {
+  width: 50%;
+  height: 250px;
+  float: left;
+  padding: 36px 0;
+  line-height: 230px;
+  text-align: right;
+}
+.jingxuan {
+  width: 100%;
+  height: 416px;
+  margin-top: 10px;
+  background-color: #f0efef;
+}
+.jingxuan .center {
+  margin: 0 auto;
+  width: 80%;
+  height: 365px;
+  text-align: center;
+}
+.jingxuan .center p:nth-child(1) {
+  font-size: 24px;
+}
+.jingxuan .center p {
+  width: 100%;
+  height: 30px;
+  padding-top: 30px;
+}
+.jingxuan .center ul {
+  width: 100%;
+  height: 270px;
+}
+.jingxuan .center ul li:hover {
+  transform: translate3d(0, -4px, 0);
+  transition: 1s;
+  box-shadow: 0px 0px 7px 1px #e4e3e3;
+}
+.jingxuan .center ul li {
+  width: 25%;
+  height: 100%;
+  float: left;
+  border: 10px solid #f0efef;
+  background-color: white;
+}
+.jingxuan .center ul li img {
+  width: 60%;
+  height: 72px;
+}
+.jingxuan .center ul li p {
+  line-height: 20px;
+  height: 20px;
+  padding-top: 20px;
+}
+.coffeehouse {
+  width: 100%;
+  height: 400px;
+}
+.coffeehouse .center {
+  width: 768px;
+  height: 74px;
+  margin: 0 auto;
+  text-align: center;
+}
+.coffeehouse .center h2 {
+  font-size: 24px;
+}
+.coffeehouse .zhishi {
+  width: 80%;
+  height: 225px;
+  margin: 20px auto 0;
+}
+.coffeehouse .zhishi div:hover {
+  transform: translate3d(0, -4px, 0);
+  transition: 1s;
+  box-shadow: 0px 0px 7px 1px #cfcece;
+}
+.coffeehouse .zhishi div {
+  width: 33.3%;
+  height: 100%;
+  float: left;
+  padding: 10px;
+}
+.coffeehouse .zhishi div img {
+  width: 100%;
+  height: 80%;
+}
+.coffeehouse .zhishi div p {
+  width: 100%;
+  height: 20%;
+  background-color: white;
+  border: 1px solid #ccc;
+  line-height: 40px;
+  padding-left: 20px;
+}
+.footer {
+  width: 100%;
+  height: 80px;
+  text-align: center;
+  line-height: 80px;
+}
+@media screen and (max-width: 766px) {
+  .div1 {
+    text-align: center;
+  }
+  .body,
+  .zeb {
+    width: 100%;
+    height: 50px!important;
+  }
+  .body div,
+  .zeb div {
+    font-size: 18px;
+    line-height: 50px;
+    margin-left: 20px;
+  }
+  .img {
+    width: 100%;
+  }
+  .img .main {
+    width: 100%;
+    height: 100%;
+  }
+  .img .main img {
+    width: 100%;
+    height: 100%;
+  }
+  .san {
+    padding-top: 10px;
+  }
+  .san div {
+    width: 100%;
+    padding: 10px 20px;
+  }
+  .wrapper {
+    width: 100%;
+  }
+  .wrapper .box {
+    width: 100%;
+  }
+  .wrapper .box .div1 {
+    width: 100%;
+    height: 200px;
+    text-align: center;
+  }
+  .coffeehouse .zhishi div {
+    width: 100%;
+  }
+  .jingxuan {
+    height: 685px;
+  }
+  .jingxuan .center ul li {
+    width: 50%;
+  }
+  .coffeehouse {
+    width: 100%;
+  }
+  .coffeehouse .center {
+    width: 100%;
+  }
+  .footer {
+    width: 100%;
+    height: 50px;
+    text-align: center;
+  }
+  .footer p {
+    width: 100%;
+    height: 100%;
+  }
+}
+.navbar {
+  width: 100%;
+  height: 60px;
+  position: fixed;
+  bottom: -20px;
+  background-color: white;
+  border-top: 1px solid #ccc;
+  z-index: 99;
+}
+.navbar div {
+  float: left;
+  width: 20%;
+  text-align: center;
+}
+.navbar div p {
+  line-height: 60px;
+}
+@media screen and (max-width: 991px) {
+  .row {
+    margin: 0;
+  }
+  .container-flex .row .top {
+    position: static;
+  }
+  .container-flex .row .top .header {
+    width: 100%;
+    height: 50px;
+    padding: 0px 20px;
+  }
+  .container-flex .row .top .header .row div:nth-child(5) {
+    float: right;
+  }
+  .container-flex .row .top .header .row div {
+    float: left;
+    width: 10%;
+  }
+  .container-flex .row .top .body {
+    width: 100%;
+    height: 100px;
+  }
+  .container-flex .row .top .body .zeb {
+    width: 100%;
+    height: 100%;
+    margin-left: 0;
+  }
+  .container-flex .row .top .body .zeb div {
+    width: 100%;
+    height: 10px;
+    padding-top: 0;
+    text-align: left;
+    margin-left: 0px;
+  }
+  .container-flex .row .top .body .zeb p {
+    width: 100%;
+    height: 30px;
+    text-align: left;
+  }
+}
+@media screen and (min-width: 1200px) {
+  .container-flex {
+    width: 1500px;
+  }
+}
